@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>My resume</title>
+</head>
+<body>
+        <script src="source.js"></script>
+         <section class="important">
+                <div class="upper">
+                        <div class="basic">
+                                <img src= "https://www.pixelstalk.net/wp-content/uploads/2016/03/Free-download-Pikachu-wallpaper-HD.jpg" alt=""/>
+                                <div class="info">
+                                        <h2 class="name"><b><i>Pushpinder Kaur</i></b></h2>
+                                        <div class="btns">
+                                                <a href="resume.pdf" download ><button id="resume">Resume</button></a>
+                                                <button id="b1" onclick = display()>Contact Me</button>
+                                            </div>
+                                       </div>
+                                    </div>
+                <div class="data">
+                <div class="firstbox">
+                    <h2 class="firstline">About Me And Academic Honesty</h2>
+                    <p> I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students</p>
+                    <p><b>Date:</b> April 12, 2022</p>
+                </div>
+                <div class="basicInfo">
+                    <h2 class="firstline">Basic Information</h2>
+                    <p><b>Age : </b> 19</p>
+                    <p><b>Language : </b> English,Hindi,Punjabi </p>
+                    <p><b>Class Section : </b>  WEB222 NFF</p>
+                    <p><b>Student id : </b> 141578203 </p>
+                    <p><b>Instructor :</b> Mr. Alireza Moghaddam</p>
+                    <p><b>Email : </b>pkaur376@myseneca.ca</p>
+                </div>
+           </div>
+           <div class="credentials">
+                        <div class="status">
+                            <p>2022-2024 (expected)</p>
+                            <h2>Bachelor</h2>
+                        </div>
+                        <div class="location">
+                             <p class="h1">Bachelor's degree</p>
+                            <h2>Seneca College Of Tech.</h2>
+                            <p>Newnham, Ontario</p>
+                        </div>
+                    </div>
+                    <div class="credentials">
+                                <div class="status">
+                                    <p>2024-2026 (expected)</p>
+                                    <h2>Clearing test</h2>
+                                </div>
+                                <div class="location">
+                                     <p class="h1">UPSC preparation</p>
+                                    <h2>IAS/IPS</h2>
+                                    <p>Under the supervision of amazing teachers<br>guiding me towards right path</p>
+                                </div>
+                            </div>
+
+        <section class="myform">
+                        <h2 class="title">Contact Form</h2> <br>
+                        <form action="https://formspree.io/f/mgednaew" method="post" id="f1">
+                            <div class="inputvalues">
+                                    <label>Name 
+                                        <input type="text" name="customer_name" placeholder="Enter your name here.." required>
+                                    </label>
+                                    <label>Email 
+                                            <input type="email" name="email_address" placeholder="Enter your email address here" required>
+                                    </label>
+                                    <label>City 
+                                            <input type="text" name="city" placeholder="Enter your city here" required>
+                                    </label>
+                                    <label>State 
+                                            <input type="text" name="state" placeholder="Enter your state here" required>
+                                    </label>
+                                    <label>Country 
+                                            <input type="text" name="country" placeholder="Enter your country here" required>
+                                    </label>
+                                    <div class="inputvalues">
+                                            <div class="radiobuttons">
+                                                    <fieldset>
+                                                            <legend>What is it about?</legend>
+                                                    
+                                                            <label for="hiring">Hiring</label>
+                                                            <input type="radio" value ="0" name="question" id="hiring"  onclick="hiddenBox()">              
+                                                    
+                                                            <label for="hiring">Comment</label>
+                                                            <input type="radio" value ="1" name="question" id="comment" >
+    
+                                                            <label for="question">Question</label>
+                                                            <input type="radio" value ="2" name="question" id="question">                            
+                                                        </fieldset>
+                                            </div>
+                                    </div>
+                                    <label for="enquiry">Enquiry</label>
+                                    <textarea id="subject" name="enquiry" placeholder="Write your questions or any concerns here" style="height:100px"></textarea>
+                                    <input class="submit" type="submit" value="Submit">
+                                </form>
+                        </section>   
+                </div> 
+        </section>       
+                
+    </body>
+    </html>
